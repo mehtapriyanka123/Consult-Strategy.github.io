@@ -462,7 +462,10 @@ header{
       margin-bottom: 50px;
   }
 }
-
+.latest_news_wrapper{
+  text-align: center;
+  font-size: 50px;
+}
 /*-- contact section end --*/
 
 /*-- Footer css Start --*/
