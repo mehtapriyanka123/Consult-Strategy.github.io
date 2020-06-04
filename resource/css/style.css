@@ -137,7 +137,7 @@ h5{
 /************************************************************/
 
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/tajback.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/Canva\ -\ Gray\ Concrete\ Buildings.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -421,10 +421,7 @@ footer{
   list-style:none;
   float: left;
 }
-.social-icons{
-  list-style: none;
-  float: right;
-}
+
 .footer-nav li,.social-icons li{
   display: inline-block;
   margin-right: 20px;
@@ -446,34 +443,7 @@ footer{
 .footer-nav li a:active {
     color: #ddd;
 }
-.social-icons li a:link,
-.social-icons li a:visited {
-    font-size: 160%;
-}
 
-
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-    transition: color 0.2s;
-}
-
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
-
-.ion-social-twitter:hover {
-    color: #00aced;
-}
-
-.ion-social-googleplus:hover {
-    color: #dd4b39;
-}
-
-.ion-social-instagram:hover {
-    color: #517fa4;
-}
 
 
 footer p {
