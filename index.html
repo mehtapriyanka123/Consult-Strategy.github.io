@@ -48,8 +48,7 @@
             <div class="hero-text-box">
               <p>Welcome to</p><br>
                 <h1>Consult & Strategy</h1>
-                  <p>We serve many of India’s largest companies and institutions—  working with
-                  clients to mobilize for change, shape winning  strategies and drive execution.</p>
+                  <p>We offer our services to India's leading companies and institutions.We are trying a build a technology and data driven community to make this world a better place.</p>
             </div>
 
         </header>
@@ -118,8 +117,13 @@
         </section>
         
            <!-- About End -->
-        
+        <div id ="vid">
+            <video width="700" height="500" controls>
 
+                <source src="./resource/vid/Video.mp4" type=video/mp4>
+              </video>
+            </div>
+            &nbsp;
     <!-- FAQ Wrapper Start -->
     <div data-scroll-index="3" style="width:100%;float:left;">
       <div class="lv_faq_wrapper lv_toppadder100 ">
@@ -128,8 +132,9 @@
                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
                       <div class="lv_heading_center">
                           <div class="faq_content_wrapper" id="insights">
-                              <h3>Adapting Your Business</h3>
-                              <p>Our management consulting services focus on our clients' most critical issues and opportunities: strategy, marketing, organization, operations, technology, transformation, digital, advanced analytics, sustainability across all industries and geographies. We bring deep, functional expertise, but are known for our holistic perspective: we capture value across boundaries and between the silos of any organization. We combine global expertise with deep local insights to help our clients create Change that Matters.We partner with government leaders to help drive growth, create skills and jobs, and strengthen services such as education and health. We have developed high-quality knowledge, data, and analytics on a variety of topics.</p>
+                             
+                            <h3>Adapting Your Business</h3>
+                              <p>Our consulting services focus on our clients' most critical issues and opportunities: website development,application development,graphic designing,strategy, marketing, technology, transformation, digital, advanced analytics, sustainability across all industries and geographies. We bring deep, functional expertise, but are known for our holistic perspective: we capture value across boundaries and between the silos of any organization. We combine international expertise with deep local insights to help our clients create Change that Matters.</p>
                              
 
 
@@ -214,7 +219,7 @@
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="lv_footer_section">
                       <h2 style="color: white">Consult & Strategy </h2>
-                      <p>We work with India's largest companies—helping several become global champions—and with smaller, dynamic ones looking to accelerate value creation. We partner with government leaders to help drive growth, create skills and jobs, and strengthen services such as education and health. We have developed high-quality knowledge, data, and analytics on a variety of topics, through our experts in the Consult & Strategy.</p>
+                      <p>We work with India's leading companies—helping startups,micro and medium enterprises with smaller, dynamic technologies,data driven insights,designing and digital marketing to accelerate value creation. We partner with leaders to help drive growth, and strengthen services such as education and health. We have developed high-quality knowledge, data, and analytics on a variety of topics, through our experts in the Consult & Strategy.</p>
                   </div>
               </div>
               
@@ -246,7 +251,20 @@
     <script src="resource/js/script.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167364115-1"></script>
-
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
 </body>
 
 </html>
