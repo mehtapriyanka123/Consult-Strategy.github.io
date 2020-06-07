@@ -55,20 +55,20 @@ $(document).ready(function()
    });
 
    /* Mobile navigation */
-   $('.js--nav-icon').click(function() {
-       var nav = $('.js--main-nav');
-       var icon = $('.js--nav-icon i');
+//    $('.js--nav-icon').click(function() {
+//        var nav = $('.js--main-nav');
+//        var icon = $('.js--nav-icon i');
 
-       nav.slideToggle(200);
+//        nav.slideToggle(200);
 
-       if (icon.hasClass('ion-ios-person')) {
-           icon.addClass('ion-close-round');
-           icon.removeClass('ion-ios-person');
-       } else {
-           icon.addClass('ion-ios-person');
-           icon.removeClass('ion-close-round');
-       }
-   });
+//        if (icon.hasClass('ion-ios-person')) {
+//            icon.addClass('ion-close-round');
+//            icon.removeClass('ion-ios-person');
+//        } else {
+//            icon.addClass('ion-ios-person');
+//            icon.removeClass('ion-close-round');
+//        }
+//    });
 
 
 
