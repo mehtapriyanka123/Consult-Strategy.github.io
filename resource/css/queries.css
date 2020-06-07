@@ -70,8 +70,8 @@
       width: 32.26%;
     }
     .main-nav,.sidebar { display: none; }
-    .mobile-nav-icon {
-      display: block;}
+/*     .mobile-nav-icon {
+      display: block;} */
 
     .sidebar {
         float: right;
